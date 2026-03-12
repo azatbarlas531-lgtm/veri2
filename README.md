@@ -13,7 +13,7 @@ Linux Syslog Veri İşleme ve Bağlı Liste Uygulaması
 • ​struct LogDugumu: Veri (log metni) ve bir sonraki düğümün adresini tutan işaretçiyi barındırır.
 • ​logListesineEkle: Yeni logları listenin sonuna ekleyerek sıralamayı korur.
 • ​free Operasyonu: Bellek sızıntılarını (Memory Leak) önlemek için program sonunda tüm düğümler temizlenir.
-​🚀 Nasıl Çalıştırılır?
+​ Nasıl Çalıştırılır?
 • ​veri2.c ve syslog.txt dosyalarını aynı dizine indirin.
 • ​C derleyiciniz (GCC, Dev-C++ vb.) ile main.c dosyasını derleyin.
 • ​Uygulamayı çalıştırdığınızda, syslog.txt içeriği bağlı listeye aktarılacak ve ekranda listelenecektir.
